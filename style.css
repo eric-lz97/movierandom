@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  #movie-display::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #selections{
+      text-align: center;
+  }
+
+ .dropdown-item {
+     text-align: center;
+ }
